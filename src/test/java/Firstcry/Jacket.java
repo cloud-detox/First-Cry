@@ -23,7 +23,7 @@ public class jacket {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 0)
 	void account() {
 		WebElement A = driver.findElement(By.xpath("//span[normalize-space()='Account']"));
         A.click();
